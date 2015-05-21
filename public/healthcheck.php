@@ -6,4 +6,4 @@ if (file_exists('down')) {
     exit();
 }
 
-return "ok";
+print "ok";
