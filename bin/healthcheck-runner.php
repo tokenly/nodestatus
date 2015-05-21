@@ -1,7 +1,6 @@
 <?php 
 
-// $consul_address = 'http://consul.service.consul:8500';
-$consul_address = 'consul.stage01.prod01.tokenly.co:8500';
+$consul_address = 'http://consul.service.consul:8500';
 $service_id = 'nodestatus_healthcheck';
 
 while (true) {
