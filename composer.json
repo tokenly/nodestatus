@@ -1,0 +1,13 @@
+{
+    "name": "tokenly/nodestatus",
+    "description": "Just a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devon Weller",
+            "email": "devon@tokenly.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

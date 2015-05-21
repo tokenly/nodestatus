@@ -8,7 +8,10 @@
 <body>
     <h1>Node Status</h1>
     <div>
-<?php echo "Hello World from PHP [".date("Y-m-d H:i:s")."]"; ?>
+        <?php echo "Hello World from PHP [".date("Y-m-d H:i:s")."]"; ?>
+    </div>
+    <div>
+        Version 101
     </div>
 
     <div><pre>
