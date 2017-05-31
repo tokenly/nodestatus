@@ -14,14 +14,13 @@
         Version 103
     </div>
 
-    <div><pre>
-NOMAD_ALLOC_INDEX: <?php echo getenv('NOMAD_ALLOC_INDEX'); ?>
-NOMAD_ALLOC_ID: <?php echo getenv('NOMAD_ALLOC_ID'); ?>
-    </pre></div>
+<div><pre>NOMAD_ALLOC_INDEX: <?php echo getenv('NOMAD_ALLOC_INDEX'); ?>
 
-    <div><pre>
-<?php echo "SERVER: ".json_encode($_SERVER, 192); ?>
-    </pre></div>
+NOMAD_ALLOC_ID: <?php echo getenv('NOMAD_ALLOC_ID'); ?>
+
+</pre></div>
+
+    <div><pre><?php echo "SERVER: ".json_encode($_SERVER, 192); ?></pre></div>
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
